@@ -14,7 +14,6 @@ You can see the [theme in action](http://carambir.in/).
 
 - responsive
 - syntax highlighting for pre blocks
-- minify css files
 - supports google analytics
 - custom list of links
 - social links with FontAwesome4
@@ -24,11 +23,6 @@ You can see the [theme in action](http://carambir.in/).
 ## INSTALL
 
 Clone the [repository](https://github.com/karambir/taman), edit your `pelicanconf.py` and modify the `THEME` variable to make it point to the downloaded theme location.
-
-The theme use *assets* plugin to handle minification of css files from [here](https://github.com/getpelican/pelican-plugins/tree/maser/assets)
-
-- Install required package for *assets* plugin by `pip install webassets`
-- Refer this [documention](https://github.com/getpelican/pelican-plugins#how-to-use-plugins) to install plugin.
 
 ## PELICANCONF.PY
 
@@ -55,7 +49,7 @@ When developing locally, you may want to set the following variable: `SITEURL = 
 
 ## AUTHOR
 
-Lagom theme is originally authored by [Matt Swanson](https://mdswanson.com/). I started with [pelican-svbhack](https://github.com/gfidente/pelican-svbhack) as base.
+Lagom theme is originally authored by [Matt Swanson](https://mdswanson.com/). Theme color is copied from [Daniel Berkompas](http://blog.danielberkompas.com/). I started with [pelican-svbhack](https://github.com/gfidente/pelican-svbhack) as base.
 
 ## LICENSE
 
